@@ -1,0 +1,127 @@
+{
+  "disease_query": "sickle cell anemia",
+  "disease_name": "sickle cell disease",
+  "efo_id": "MONDO_0011382",
+  "targets": [
+    {
+      "gene_symbol": "HBB",
+      "gene_name": "hemoglobin subunit beta",
+      "ensembl_id": "ENSG00000244734",
+      "association_score": 0.8287
+    },
+    {
+      "gene_symbol": "BCL11A",
+      "gene_name": "BCL11 transcription factor A",
+      "ensembl_id": "ENSG00000119866",
+      "association_score": 0.6414
+    },
+    {
+      "gene_symbol": "RRM2B",
+      "gene_name": "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+      "ensembl_id": "ENSG00000048392",
+      "association_score": 0.5946
+    },
+    {
+      "gene_symbol": "RRM1",
+      "gene_name": "ribonucleotide reductase catalytic subunit M1",
+      "ensembl_id": "ENSG00000167325",
+      "association_score": 0.5813
+    },
+    {
+      "gene_symbol": "RRM2",
+      "gene_name": "ribonucleotide reductase regulatory subunit M2",
+      "ensembl_id": "ENSG00000171848",
+      "association_score": 0.5813
+    },
+    {
+      "gene_symbol": "HBA2",
+      "gene_name": "hemoglobin subunit alpha 2",
+      "ensembl_id": "ENSG00000188536",
+      "association_score": 0.5737
+    },
+    {
+      "gene_symbol": "HBA1",
+      "gene_name": "hemoglobin subunit alpha 1",
+      "ensembl_id": "ENSG00000206172",
+      "association_score": 0.573
+    },
+    {
+      "gene_symbol": "SELP",
+      "gene_name": "selectin P",
+      "ensembl_id": "ENSG00000174175",
+      "association_score": 0.5612
+    },
+    {
+      "gene_symbol": "HBS1L",
+      "gene_name": "HBS1 like translational GTPase",
+      "ensembl_id": "ENSG00000112339",
+      "association_score": 0.4394
+    },
+    {
+      "gene_symbol": "PKLR",
+      "gene_name": "pyruvate kinase L/R",
+      "ensembl_id": "ENSG00000143627",
+      "association_score": 0.3882
+    },
+    {
+      "gene_symbol": "CSF3R",
+      "gene_name": "colony stimulating factor 3 receptor",
+      "ensembl_id": "ENSG00000119535",
+      "association_score": 0.3678
+    },
+    {
+      "gene_symbol": "TRHR",
+      "gene_name": "thyrotropin releasing hormone receptor",
+      "ensembl_id": "ENSG00000174417",
+      "association_score": 0.3597
+    },
+    {
+      "gene_symbol": "OPRM1",
+      "gene_name": "opioid receptor mu 1",
+      "ensembl_id": "ENSG00000112038",
+      "association_score": 0.3492
+    },
+    {
+      "gene_symbol": "EDNRA",
+      "gene_name": "endothelin receptor type A",
+      "ensembl_id": "ENSG00000151617",
+      "association_score": 0.3395
+    },
+    {
+      "gene_symbol": "EDNRB",
+      "gene_name": "endothelin receptor type B",
+      "ensembl_id": "ENSG00000136160",
+      "association_score": 0.3378
+    },
+    {
+      "gene_symbol": "GRIN3B",
+      "gene_name": "glutamate ionotropic receptor NMDA type subunit 3B",
+      "ensembl_id": "ENSG00000116032",
+      "association_score": 0.3364
+    },
+    {
+      "gene_symbol": "GRIN2C",
+      "gene_name": "glutamate ionotropic receptor NMDA type subunit 2C",
+      "ensembl_id": "ENSG00000161509",
+      "association_score": 0.3364
+    },
+    {
+      "gene_symbol": "GRIN1",
+      "gene_name": "glutamate ionotropic receptor NMDA type subunit 1",
+      "ensembl_id": "ENSG00000176884",
+      "association_score": 0.3364
+    },
+    {
+      "gene_symbol": "GRIN2A",
+      "gene_name": "glutamate ionotropic receptor NMDA type subunit 2A",
+      "ensembl_id": "ENSG00000183454",
+      "association_score": 0.3364
+    },
+    {
+      "gene_symbol": "GRIN3A",
+      "gene_name": "glutamate ionotropic receptor NMDA type subunit 3A",
+      "ensembl_id": "ENSG00000198785",
+      "association_score": 0.3364
+    }
+  ]
+}

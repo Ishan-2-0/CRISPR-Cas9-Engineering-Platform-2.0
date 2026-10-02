@@ -1,0 +1,6 @@
+hf_cache/
+Data/doench2016.csv
+Data/gene_sequences.json
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

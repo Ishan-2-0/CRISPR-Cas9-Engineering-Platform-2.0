@@ -1,0 +1,35 @@
+{
+  "disease": "sickle cell disease",
+  "query": "I am designing a CRISPR-Cas9 experiment to treat sickle cell disease. What genes would you target and why? For each gene, suggest a guide RNA sequence (20nt, NGG PAM) and explain what makes it likely to be efficient.",
+  "retrieved_chunks": [
+    {
+      "source": "pubmed",
+      "content": "Title: Transformative CRISPR-Cas9 Technologies: A Review of Molecular Mechanisms, Precision Editing Techniques, and Clinical Progress in Sickle Cell Disease.\nAbstract: Sickle cell disease (SCD) is a hereditary blood disorder resulting from the production of distorted hemoglobin molecules that cause red blood cells to adopt a sickle or crescent-like shape. This disease affects millions of people, particularly those of African, Mediterranean, Middle Eastern, or South Asian descent. In recent years, however, advancements in the CRISPR-Cas9 gene-editing systems have"
+    },
+    {
+      "source": "pubmed",
+      "content": "Title: Off-target interactions in the CRISPR-Cas9 Machinery: mechanisms and outcomes.\nAbstract: The in vivo editing of genetic information necessitates tools of unprecedented accuracy. CRISPR-Cas-based systems have emerged as leading technologies for precisely targeting the genome. The Cas9 endonuclease derived from Streptococcus pyogenes is the most commonly used instrument for targeted DNA cleavage. The development of engineered and chimeric Cas9 variants with enhanced activity and specifi"
+    },
+    {
+      "source": "pubmed",
+      "content": "Title: Efficient prioritization of CRISPR screen hits by accounting for targeting efficiency of guide RNA.\nAbstract: BACKGROUND: CRISPR-based screens are revolutionizing drug discovery as tools to identify genes whose ablation induces a phenotype of interest. For instance, CRISPR-Cas9 screening has been successfully used to identify novel therapeutic targets in cancer where disruption of genes leads to decreased viability of malignant cells. However, low-activity guide RNAs may give rise to variable changes in p"
+    },
+    {
+      "source": "pubmed",
+      "content": "Title: Custom CRISPR-Cas9 PAM variants via scalable engineering and machine learning.\nAbstract: Engineering and characterizing proteins can be time-consuming and cumbersome, motivating the development of generalist CRISPR-Cas enzymes(1-4) to enable diverse genome-editing applications. However, such enzymes have caveats such as an increased risk of off-target editing(3,5,6). Here, to enable scalable reprogramming of Cas9 enzymes, we combined high-throughput protein engineering with machine le"
+    },
+    {
+      "source": "pubmed",
+      "content": "Title: Structural insights into target detection by the S. marcescens type III CRISPR complex and its deployment in SNP identification.\nAbstract: Type III CRISPR systems utilize a complex containing Cas10, additional Cas proteins and a crRNA to detect foreign transcripts. Upon detection, Cas10 synthesizes cyclic oligoadenylates (cOA), signaling molecules that coordinate interference by stimulating downstream enzymes with DNase, RNase, protease or other activities. Type III systems are among the most abundant CRISPR systems in prokaryotes an"
+    },
+    {
+      "source": "pubmed",
+      "content": "Title: Genome editing in the edible fungus Poria cocos using CRISPR-Cas9 system integrating genome-wide off-target prediction and detection.\nAbstract: Poria cocos is an important edible and medicinal fungus with a long history. However, the lack of adequate genetic tools has hindered molecular genetic research and the genetic modification of this species. In this study, the endogenous U6 promoters were identified by mining data from the P. cocos genome, and the promoter sequence was used to construct a sgRNA expression vector pFC332-PcU6. Then, "
+    }
+  ],
+  "ot_context": "OpenTargets therapeutic targets for sickle cell disease:\n  HBB (hemoglobin subunit beta): association_score=0.8287\n  BCL11A (BCL11 transcription factor A): association_score=0.6414\n  RRM2B (ribonucleotide reductase regulatory TP53 inducible subunit M2B): association_score=0.5946\n  RRM1 (ribonucleotide reductase catalytic subunit M1): association_score=0.5813\n  RRM2 (ribonucleotide reductase regulatory subunit M2): association_score=0.5813\n",
+  "rag_response": "For treating sickle cell disease (SCD), targeting the HBB gene is the most promising approach due to its direct involvement in the production of abnormal hemoglobin. Below are the recommended guide RNA sequences for the HBB gene, based on the highest scored guide RNAs from the ML pipeline:\n\n1. **Guide RNA Sequence**: AGTCTGCCGTTACTGCCCTG\n   - **Score**: 0.8752\n   - **Position**: 75 (11.94%)\n   - **PAM**: TGG\n   - **Efficiency**: This guide RNA has the highest score, indicating high efficiency. It is well-positioned within the gene and has a suitable PAM site, which is crucial for Cas9 binding and cleavage.\n\n2. **Guide RNA Sequence**: TAAGTCCAACTACTAAACTG\n   - **Score**: 0.8371\n   - **Position**: 541 (86.15%)\n   - **PAM**: GGG\n   - **Efficiency**: This guide RNA also scores highly and is positioned towards the end of the gene. The GGG PAM is compatible with Cas9, ensuring effective targeting.\n\n3. **Guide RNA Sequence**: TCTGCCGTTACTGCCCTGTG\n   - **Score**: 0.7527\n   - **Position**: 77 (12.26%)\n   - **PAM**: GGG\n   - **Efficiency**: While slightly lower than the top two, this guide RNA still has a high score and is well-placed within the gene. The GGG PAM ensures compatibility with Cas9.\n\nThese guide RNAs are prioritized based on their scores, which reflect their predicted efficiency in the CRISPR-Cas9 system. The positions and PAM sites are also favorable, increasing the likelihood of successful gene editing. Targeting these regions should provide a strong foundation for therapeutic intervention in sickle cell disease.",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "context_used": "opentargets+pubmed+ml_pipeline",
+  "top_k": 6
+}

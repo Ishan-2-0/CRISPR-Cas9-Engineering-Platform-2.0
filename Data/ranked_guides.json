@@ -1,0 +1,98 @@
+{
+  "disease": "sickle cell disease",
+  "gene": "HBB",
+  "refseq": "NM_000518.5",
+  "model": "xgboost_doench2016",
+  "guides": [
+    {
+      "gene": "HBB",
+      "guide_sequence": "AGTCTGCCGTTACTGCCCTG",
+      "position": 75,
+      "pam": "TGG",
+      "seq30": "GAGAAGTCTGCCGTTACTGCCCTGTGGNNN",
+      "xgb_score": 0.8752,
+      "position_pct": 11.94
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "TAAGTCCAACTACTAAACTG",
+      "position": 541,
+      "pam": "GGG",
+      "seq30": "TCCCTAAGTCCAACTACTAAACTGGGGNNN",
+      "xgb_score": 0.8371,
+      "position_pct": 86.15
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "TCTGCCGTTACTGCCCTGTG",
+      "position": 77,
+      "pam": "GGG",
+      "seq30": "GAAGTCTGCCGTTACTGCCCTGTGGGGNNN",
+      "xgb_score": 0.7527,
+      "position_pct": 12.26
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "GCACTGTGACAAGCTGCACG",
+      "position": 325,
+      "pam": "TGG",
+      "seq30": "AGCTGCACTGTGACAAGCTGCACGTGGNNN",
+      "xgb_score": 0.7016,
+      "position_pct": 51.75
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "GGCTGCCTATCAGAAAGTGG",
+      "position": 433,
+      "pam": "TGG",
+      "seq30": "TGCAGGCTGCCTATCAGAAAGTGGTGGNNN",
+      "xgb_score": 0.697,
+      "position_pct": 68.95
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "TATGGGCAACCCTAAGGTGA",
+      "position": 214,
+      "pam": "AGG",
+      "seq30": "CTGTTATGGGCAACCCTAAGGTGAAGGNNN",
+      "xgb_score": 0.6854,
+      "position_pct": 34.08
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "AAGTCCAACTACTAAACTGG",
+      "position": 542,
+      "pam": "GGG",
+      "seq30": "CCCTAAGTCCAACTACTAAACTGGGGGNNN",
+      "xgb_score": 0.6792,
+      "position_pct": 86.31
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "TGGTCTACCCTTGGACCCAG",
+      "position": 150,
+      "pam": "AGG",
+      "seq30": "CTGGTGGTCTACCCTTGGACCCAGAGGNNN",
+      "xgb_score": 0.6678,
+      "position_pct": 23.89
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "GCAGGCTGCCTATCAGAAAG",
+      "position": 430,
+      "pam": "TGG",
+      "seq30": "CAGTGCAGGCTGCCTATCAGAAAGTGGNNN",
+      "xgb_score": 0.6501,
+      "position_pct": 68.47
+    },
+    {
+      "gene": "HBB",
+      "guide_sequence": "CATGGTGCATCTGACTCCTG",
+      "position": 49,
+      "pam": "AGG",
+      "seq30": "ACACCATGGTGCATCTGACTCCTGAGGNNN",
+      "xgb_score": 0.6449,
+      "position_pct": 7.8
+    }
+  ]
+}

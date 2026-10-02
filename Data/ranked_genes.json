@@ -1,0 +1,35 @@
+{
+  "disease_name": "sickle cell disease",
+  "top_genes": [
+    {
+      "gene_symbol": "HBB",
+      "gene_name": "hemoglobin subunit beta",
+      "ensembl_id": "ENSG00000244734",
+      "association_score": 0.8287
+    },
+    {
+      "gene_symbol": "BCL11A",
+      "gene_name": "BCL11 transcription factor A",
+      "ensembl_id": "ENSG00000119866",
+      "association_score": 0.6414
+    },
+    {
+      "gene_symbol": "RRM2B",
+      "gene_name": "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+      "ensembl_id": "ENSG00000048392",
+      "association_score": 0.5946
+    },
+    {
+      "gene_symbol": "RRM1",
+      "gene_name": "ribonucleotide reductase catalytic subunit M1",
+      "ensembl_id": "ENSG00000167325",
+      "association_score": 0.5813
+    },
+    {
+      "gene_symbol": "RRM2",
+      "gene_name": "ribonucleotide reductase regulatory subunit M2",
+      "ensembl_id": "ENSG00000171848",
+      "association_score": 0.5813
+    }
+  ]
+}
